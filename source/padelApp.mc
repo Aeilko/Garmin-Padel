@@ -18,7 +18,8 @@ class padelApp extends Application.AppBase {
 
 	// Return the initial view of your application here
 	function getInitialView() as [Views] or [Views, InputDelegates] {
-		return [ new padelView(), new padelDelegate() ];
+		var loop = new WatchUi.ViewLoop(new padelActivityViewLoop(), {:wrap => true, :color => Graphics.COLOR_DK_BLUE});
+		return [ loop, new ViewLoopDelegate(loop) ];
 	}
 
 }

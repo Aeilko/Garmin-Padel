@@ -1,7 +1,7 @@
 import Toybox.Graphics;
 import Toybox.WatchUi;
 
-class padelView extends WatchUi.View {
+class activityFinishView extends WatchUi.View {
 
 	function initialize() {
 		View.initialize();
@@ -9,7 +9,7 @@ class padelView extends WatchUi.View {
 
 	// Load your resources here
 	function onLayout(dc as Dc) as Void {
-		setLayout(Rez.Layouts.MainLayout(dc));
+		setLayout(Rez.Layouts.ActivityFinishLayout(dc));
 	}
 
 	// Called when this View is brought to the foreground. Restore
