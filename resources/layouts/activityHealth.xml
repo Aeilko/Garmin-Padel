@@ -1,3 +1,5 @@
 <layout id="ActivityHealthLayout">
-	<label x="center" y="50%" text="Activity Health" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+	<drawable id="BackgroundYellow" />
+
+	<label x="center" y="center" text="Activity Health" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
 </layout>

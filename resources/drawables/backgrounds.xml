@@ -1,0 +1,18 @@
+<resources>
+	<drawable-list id="BackgroundBlack" background="Graphics.COLOR_BLACK">
+		<shape type="rectangle" x="0" y="0" width="fill" height="fill"></shape>
+	</drawable-list>
+	<drawable-list id="BackgroundWhite" background="Graphics.COLOR_WHITE">
+		<shape type="rectangle" x="0" y="0" width="fill" height="fill"></shape>
+	</drawable-list>
+
+	<drawable-list id="BackgroundRed" background="0xED1C24">
+		<shape type="rectangle" x="0" y="0" width="fill" height="fill"></shape>
+	</drawable-list>
+	<drawable-list id="BackgroundYellow" background="Graphics.COLOR_YELLOW">
+		<shape type="rectangle" x="0" y="0" width="fill" height="fill"></shape>
+	</drawable-list>
+	<drawable-list id="BackgroundGreen" background="Graphics.COLOR_GREEN">
+		<shape type="rectangle" x="0" y="0" width="fill" height="fill"></shape>
+	</drawable-list>
+</resources>

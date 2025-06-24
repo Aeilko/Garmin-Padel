@@ -1,3 +1,5 @@
 <layout id="ActivityFinishLayout">
-	<label x="center" y="50%" text="Activity Finish" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+	<drawable id="BackgroundGreen" />
+
+	<label x="center" y="center" text="Activity Finish" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
 </layout>
